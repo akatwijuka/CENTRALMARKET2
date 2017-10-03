@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="moses.centralmarket.FruitFragment">
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="we are having fresh fruits here,we sell them at very cheaper prices to customers.
+the are available at every timesome of the common fruits we have  are apples,passion fruits,tommatoes and mnany others"/>
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/f1"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/f2"
+            />
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="183dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/f3" />
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+
+</FrameLayout>
